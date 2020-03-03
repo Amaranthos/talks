@@ -7,4 +7,4 @@ slides: $(html)
 
 %.html: %.md
 	mkdir -p docs/$*/
-	yarn dlx markdown-to-slides $? -o docs/$*/index.html
+	yarn dlx markdown-to-slides -i $? -o docs/$*/index.html
