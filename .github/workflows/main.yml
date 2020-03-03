@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: [ubuntu-latest]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: yarn set version berry
+      run: yarn set version berry
+    - name: yarn install
+      run: yarn install
+    - name: make slides
+      run: make slides
