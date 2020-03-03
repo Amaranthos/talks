@@ -1,0 +1,11 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Amaranthos/talks.git",
+  "author": "Joshua Hodkinson <joshua.hodkinson@thoughtworks.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-to-slides": "^1.0.5"
+  }
+}
